@@ -1,6 +1,4 @@
-# This team hasn't started yet...
+# Team D has started!
 
-Check back later!
-
-**Please read `tasks.md` to start your work.**
+**Please read `tasks.md` to start your work for your individual tasks and one for the group.**
  
