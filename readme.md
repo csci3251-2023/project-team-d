@@ -21,7 +21,7 @@ Task 7: Setup a Github pages and add the link to README
 ```c
 {% include_relative code.c %}
 ```
-
+[![pages-build-deployment](https://github.com/csci3251-2023/project-team-d/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/csci3251-2023/project-team-d/actions/workflows/pages/pages-build-deployment)
 
 # Contributors
 
