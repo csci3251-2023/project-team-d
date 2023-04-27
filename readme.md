@@ -18,7 +18,8 @@ Task 7: Setup a Github pages and add the link to README
 
 # Code
 
-#include "code.c"
+```c
+{% include_relative [path/to/code.c] %}
 
 
 # Contributors
