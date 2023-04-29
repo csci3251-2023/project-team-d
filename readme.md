@@ -26,3 +26,5 @@ Task 7: Setup a Github pages and add the link to README
   * {{ student.content | markdownify}}
 
 {% endfor %}
+
+Last Edit {{ site.time }}
