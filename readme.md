@@ -25,3 +25,9 @@ Task 7: Setup a Github pages and add the link to README
 
 # Contributors
 
+{% for student in site.stu %}
+
+* <img src="{{ student.image }}" width="50" height="50"> <span>@{{student.user}}</span> ({{ student.name }})
+  * {{ student.content | markdownify}}
+
+{% endfor %}
