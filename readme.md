@@ -19,6 +19,8 @@ Task 7: Setup a Github pages and add the link to README
 # Code
 
 # Contributors
+
+'''
 ---
 layout: default
 title: Contributors
@@ -30,3 +32,4 @@ Contributors
     {{ student.name  }}
 {% endfor %}
 
+'''
