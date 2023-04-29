@@ -23,14 +23,10 @@ Task 7: Setup a Github pages and add the link to README
 layout: default
 title: Contributors
 ---
-<h1>Contributors</h1>
+Contributors
+{% for student in site.stu %}
+    {{ student.user }}
+    {{ student.image }}
+    {{ student.name  }}
+{% endfor %}
 
-<ul>
-  {% for student in site.stu %}
-    <li>
-      <h2>{{ student.user }}</h2>
-      <h3>{{ student.image }}</h3>
-      <p>{{ student.name | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
